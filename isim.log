@@ -1,0 +1,131 @@
+ISim log file
+Running: G:\verilog\verilog assign\testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb G:/verilog/verilog assign/testbench_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:60 - The XILINXD_LICENSE_FILE environment variable is set to ' C:\.Xilinx\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;'.
+INFO:Security:62 - The LM_LICENSE_FILE environment variable is set to ' C:\.Xilinx\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;'.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is AJITH, on host LAPTOP-N2PNU3IC.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+No such feature exists.
+Feature:       ISIM
+License path:   C:\.Xilinx\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;C:/.Xilinx\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/data\*.lic;
+FLEXnet Licensing error:-5,357
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                   0clk=0,reset=1,x=x,y=0
+                   5clk=1,reset=1,x=0,y=0
+                  10clk=0,reset=0,x=0,y=0
+                  15clk=1,reset=0,x=1,y=0
+                  20clk=0,reset=0,x=1,y=0
+                  25clk=1,reset=0,x=1,y=0
+                  30clk=0,reset=0,x=1,y=0
+                  35clk=1,reset=0,x=0,y=0
+                  40clk=0,reset=0,x=0,y=0
+                  45clk=1,reset=0,x=1,y=0
+                  50clk=0,reset=0,x=1,y=0
+                  55clk=1,reset=0,x=0,y=0
+                  60clk=0,reset=0,x=0,y=0
+                  65clk=1,reset=0,x=0,y=0
+                  70clk=0,reset=0,x=0,y=0
+                  75clk=1,reset=0,x=0,y=0
+                  80clk=0,reset=0,x=0,y=0
+                  85clk=1,reset=0,x=1,y=0
+                  90clk=0,reset=0,x=1,y=0
+                  95clk=1,reset=0,x=0,y=0
+                 100clk=0,reset=0,x=0,y=0
+                 105clk=1,reset=0,x=0,y=0
+                 110clk=0,reset=0,x=0,y=0
+                 115clk=1,reset=0,x=1,y=1
+                 120clk=0,reset=0,x=1,y=0
+                 125clk=1,reset=0,x=1,y=0
+                 130clk=0,reset=0,x=1,y=0
+                 135clk=1,reset=0,x=0,y=0
+                 140clk=0,reset=0,x=0,y=0
+                 145clk=1,reset=0,x=0,y=0
+                 150clk=0,reset=0,x=0,y=0
+                 155clk=1,reset=0,x=0,y=0
+                 160clk=0,reset=0,x=0,y=0
+                 165clk=1,reset=0,x=0,y=0
+                 170clk=0,reset=0,x=0,y=0
+                 175clk=1,reset=0,x=1,y=0
+                 180clk=0,reset=0,x=1,y=0
+                 185clk=1,reset=0,x=0,y=0
+                 190clk=0,reset=0,x=0,y=0
+                 195clk=1,reset=0,x=0,y=0
+                 200clk=0,reset=0,x=0,y=0
+                 205clk=1,reset=0,x=1,y=1
+                 210clk=0,reset=0,x=1,y=0
+                 215clk=1,reset=0,x=0,y=0
+                 220clk=0,reset=0,x=0,y=0
+                 225clk=1,reset=0,x=0,y=0
+                 230clk=0,reset=0,x=0,y=0
+                 235clk=1,reset=0,x=1,y=1
+                 240clk=0,reset=0,x=1,y=0
+                 245clk=1,reset=0,x=0,y=0
+                 250clk=0,reset=0,x=0,y=0
+                 255clk=1,reset=0,x=0,y=0
+                 260clk=0,reset=0,x=0,y=0
+                 265clk=1,reset=0,x=0,y=0
+                 270clk=0,reset=0,x=0,y=0
+                 275clk=1,reset=0,x=0,y=0
+                 280clk=0,reset=0,x=0,y=0
+                 285clk=1,reset=0,x=0,y=0
+                 290clk=0,reset=0,x=0,y=0
+                 295clk=1,reset=0,x=0,y=0
+                 300clk=0,reset=0,x=0,y=0
+                 305clk=1,reset=0,x=0,y=0
+                 310clk=0,reset=0,x=0,y=0
+                 315clk=1,reset=0,x=0,y=0
+                 320clk=0,reset=0,x=0,y=0
+                 325clk=1,reset=0,x=0,y=0
+                 330clk=0,reset=0,x=0,y=0
+                 335clk=1,reset=0,x=0,y=0
+                 340clk=0,reset=0,x=0,y=0
+                 345clk=1,reset=0,x=0,y=0
+                 350clk=0,reset=0,x=0,y=0
+                 355clk=1,reset=0,x=0,y=0
+                 360clk=0,reset=0,x=0,y=0
+                 365clk=1,reset=0,x=0,y=0
+                 370clk=0,reset=0,x=0,y=0
+                 375clk=1,reset=0,x=0,y=0
+                 380clk=0,reset=0,x=0,y=0
+                 385clk=1,reset=0,x=0,y=0
+                 390clk=0,reset=0,x=0,y=0
+                 395clk=1,reset=0,x=0,y=0
+                 400clk=0,reset=0,x=0,y=0
+                 405clk=1,reset=0,x=0,y=0
+                 410clk=0,reset=0,x=0,y=0
+                 415clk=1,reset=0,x=0,y=0
+                 420clk=0,reset=0,x=0,y=0
+                 425clk=1,reset=0,x=0,y=0
+                 430clk=0,reset=0,x=0,y=0
+                 435clk=1,reset=0,x=0,y=0
+                 440clk=0,reset=0,x=0,y=0
+                 445clk=1,reset=0,x=0,y=0
+                 450clk=0,reset=0,x=0,y=0
+                 455clk=1,reset=0,x=0,y=0
+                 460clk=0,reset=0,x=0,y=0
+                 465clk=1,reset=0,x=0,y=0
+                 470clk=0,reset=0,x=0,y=0
+                 475clk=1,reset=0,x=0,y=0
+                 480clk=0,reset=0,x=0,y=0
+                 485clk=1,reset=0,x=0,y=0
+                 490clk=0,reset=0,x=0,y=0
+                 495clk=1,reset=0,x=0,y=0
+                 500clk=0,reset=0,x=0,y=0
+                 505clk=1,reset=0,x=0,y=0
+Stopped at time : 510 ns :  in File "G:/verilog/verilog assign/new.v" Line 74 
